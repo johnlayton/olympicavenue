@@ -40,9 +40,6 @@ spec:
         - name: http
           containerPort: 8092
           protocol: TCP
-        env:
-        - name: PODINFO_UI_COLOR
-          value: "#34577c"
         livenessProbe:
           httpGet:
             path: /healthz
