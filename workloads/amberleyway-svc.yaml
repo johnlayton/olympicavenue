@@ -11,6 +11,6 @@ spec:
     app: amberleyway
   ports:
   - name: http
-    port: 8080
+    port: 8092
     protocol: TCP
     targetPort: http
