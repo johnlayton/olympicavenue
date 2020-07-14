@@ -1,0 +1,60 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: amberleyway
+  namespace: amberleyway
+  labels:
+    app: amberleyway
+  annotations:
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.init: regex:^3.10.*
+    fluxcd.io/tag.podinfod: semver:~3.1
+spec:
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 0
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: amberleyway
+  template:
+    metadata:
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9797"
+      labels:
+        app: amberleyway
+    spec:
+      initContainers:
+      - name: init
+        image: alpine:3.10
+        command:
+        - sleep
+        - "1"
+      containers:
+      - name: amberleyway
+        image: johnlayton/amberletway:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - name: http
+          containerPort: 8092
+          protocol: TCP
+        env:
+        - name: PODINFO_UI_COLOR
+          value: "#34577c"
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8083
+        readinessProbe:
+          httpGet:
+            path: /readyz
+            port: 8083
+        resources:
+          limits:
+            cpu: 1000m
+            memory: 128Mi
+          requests:
+            cpu: 10m
+            memory: 64Mi
