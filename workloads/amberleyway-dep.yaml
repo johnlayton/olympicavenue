@@ -42,12 +42,20 @@ spec:
           protocol: TCP
         livenessProbe:
           httpGet:
-            path: /healthz
-            port: 8083
+            path: /actuator/health
+            port: 8093
+          initialDelaySeconds: 30
+          failureThreshold: 1
+          periodSeconds: 5
+          timeoutSeconds: 2
         readinessProbe:
           httpGet:
-            path: /healthz
-            port: 8083
+            path: /actuator/health
+            port: 8093
+          initialDelaySeconds: 30
+          failureThreshold: 1
+          periodSeconds: 5
+          timeoutSeconds: 2
         resources:
           limits:
             cpu: 1000m
