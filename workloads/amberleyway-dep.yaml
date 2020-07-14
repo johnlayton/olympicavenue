@@ -34,7 +34,7 @@ spec:
         - "1"
       containers:
       - name: amberleyway
-        image: johnlayton/amberleyway:0.0.11
+        image: johnlayton/amberleyway:0.0.12
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
