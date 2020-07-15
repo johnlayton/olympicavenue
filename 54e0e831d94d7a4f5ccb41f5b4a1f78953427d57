@@ -1,0 +1,1 @@
+{"jobID":"c97e9ff9-5a07-b8d1-42c4-e987d9a12a20","spec":{"type":"policy","cause":{"Message":"","User":"John Layton \u003cjohn.layton@mebank.com.au\u003e"},"spec":{"amberleyway:deployment/amberleyway":{"add":{"tag.amberleyway":"glob:0.0.12"},"remove":{}}}},"result":null}
