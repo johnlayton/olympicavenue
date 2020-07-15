@@ -10,6 +10,7 @@ metadata:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.init: regex:^3.10.*
     fluxcd.io/tag.podinfod: glob:0.0.13
+    fluxcd.io/tag.amberleyway: glob:0.0.12
 spec:
   strategy:
     rollingUpdate:
