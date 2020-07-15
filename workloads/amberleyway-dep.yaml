@@ -31,7 +31,7 @@ spec:
         - "1"
       containers:
       - name: amberleyway
-        image: johnlayton/amberleyway:0.0.11
+        image: johnlayton/amberleyway:0.0.13
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
@@ -59,7 +59,7 @@ spec:
         resources:
           limits:
             cpu: 1000m
-            memory: 128Mi
+            memory: 512Mi
           requests:
             cpu: 10m
             memory: 64Mi
