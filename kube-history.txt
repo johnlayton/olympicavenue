@@ -1,0 +1,303 @@
+  182  kubectl oidc-login
+  184  kubectl oidc-login
+  186  kubectl oidc-login
+  188  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet
+  190  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet
+  193  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | tail -n 5
+  195  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | tail -n 5
+  196  kubectl oidc-login
+  197  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | tail -n 5
+  198  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet
+  199  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | tail -n 5
+  200  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet 2>&1 | tail -n 5
+  201  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet 2>&1
+  202  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet 2>&1 | jq
+  203  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | tail -n 5 | jq -
+  204  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | tail -n 5 
+  205  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet | mb-info
+  206  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet 1>&2 | mb-info
+  207  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet 2>&1 | mb-info
+  208  kubectl --namespace esm-g logs -f bankfastdigitalwallet-8488c7d57d-ftr29 bankfastdigitalwallet 1>&2 | tail -n 5
+  356  kubectl oidc-login
+  371  kubectl oidc-login
+  381  kubectl exec -it service/sleep -- /bin/bash
+  383  kubectl oidc-login
+  385  kubectl exec -it pod/sleep-7b7b77cd4f-b2tg7 -- /bin/bash
+  390  cd "/Users/me802003/Development/mebank"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  392  cd "/Users/me802003/Development/mebank"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  396  cd "/var/folders/s9/bgr_9xd95w1_0m1yn1n9fw_x55dz19/T/tmp.waBsh06u"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  399  kubectl -n esm-g apply -f shakeout-mesh-http.yaml
+  402  cd "/var/folders/s9/bgr_9xd95w1_0m1yn1n9fw_x55dz19/T/tmp.zdyjsLdI"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  403  kubectl -n esm-g apply -f shakeout-mesh-http.yaml 
+  404  kubectl -n esm-g apply -f ./shakeout-mesh-http.yaml 
+  415  cd "/var/folders/s9/bgr_9xd95w1_0m1yn1n9fw_x55dz19/T/tmp.2XurVqTG"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  416  kubectl -n esm-g apply -f shakeout-mesh-http.yaml 
+  423  cd "/Users/me802003/Development/mebank"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  424  kubectl -n esm-g exec -it -c mesh-shakeout-http mesh-shakeout-http-7d4875b687-927jf /bin/bash
+  425  cd "/Users/me802003/Development/mebank"; clear; kubectl -n esm-g get pods -l app=mesh-shakeout-http
+  430  kubectl -n esm-g exec -it -c mesh-shakeout-http mesh-shakeout-http-7d4875b687-927jf /bin/bash
+  513  kubectl oidc-login
+  514  kubectl --namespace esm-g logs -f bankfastdigitalwallet-f98fd696b-6jvd2 bankfastdigitalwallet
+  518  kubectl --namespace esm-g logs -f dwbfaprovisioning-7fdcd95ff5-h9cp2 dwbfaprovisioning
+  519  kubectl --namespace esm-g logs -f bankfastdigitalwallet-f98fd696b-6jvd2 bankfastdigitalwallet
+  523  kubectl --namespace esm-g logs -f dwbfaprovisioning-7fdcd95ff5-h9cp2 dwbfaprovisioning
+  524  kubectl --namespace esm-g logs -f bankfastdigitalwallet-f98fd696b-6jvd2 bankfastdigitalwallet
+  529  kubectl oidc-login
+  530  kubectl --namespace esm-g logs -f bankfastdigitalwallet-f98fd696b-6jvd2 bankfastdigitalwallet
+  566  kubectl oidc-
+  567  kubectl oidc-login
+  568  kubectl --namespace esm-m logs -f nppalias-55f745ccf9-7qtlk nppalias
+  875  kubectl oidc-login
+  877  kubectl oidc-login
+  879  kubectl oidc-login
+  880  kubectl --namespace esm-m logs -f nppalias-5b98b8bf6c-fcxtj istio-proxy
+  883  kubectl --namespace esm-m logs -f bankfastdirectbankingnpp-8678c956bc-r8kpq bankfastdirectbankingnpp
+  899  kubectl oidc-login
+  902  kubectl oidc-login
+  903  kubectl --namespace esm-m logs -f bankfastdirectbankingnpp-7fd4684597-bwjzw bankfastdirectbankingnpp
+ 1234  kubectl oidclogin
+ 1235  kubectl oidc-login
+ 1237  kubectl oidc-login
+ 1239  kubectl oidc-login
+ 1241  kubectl oidc-login
+ 1243  kubectl get namespaces 
+ 1248  kubectl oidc-login
+ 1249  kubectl get namespaces 
+ 1250  kubectl --namespace esm-r logs -f occupationdatamanagement-6d768dc7b5-zmp2c occupationdatamanagement
+ 1251  kubectl --namespace esm-r logs -f occupationdatamanagement-loader-onetime-1588916497-tfjvx redisloader
+ 1252  kubectl get pods
+ 1253  kubectl --namespace esm-r get pods
+ 1254  kubectl port-forward rfs-occupationdatamanagement-data-75b45bb785-9qnb8 26379:26379
+ 1255  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-9qnb8 26379:26379
+ 1261  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-9qnb8 6379:6379
+ 1262  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-9qnb8 26379:26379
+ 1264  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-bslwk 26379:26379
+ 1266  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-s48c5 26379:26379
+ 1268  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-s48c5 6379:6379
+ 1270  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-9qnb8 6379:6379
+ 1271  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-bslwk 6379:6379
+ 1273  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-75b45bb785-s48c5 26379:26379
+ 1275  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-0 6379:6379
+ 1276  kubectl --namespace esm-r port-forward rfs-occupationdatamanagement-data-0 6379:6379
+ 1943  kubectl oidc-login
+ 1945  kubectl oidc-login
+ 1973  kubectl oidc-login
+ 1977  kubectl oidc-login
+ 2304  kubectl oidc-login
+ 2306  kubectl oidc-login
+ 2597  kubectl oidc-login
+ 2599  kubectl get namespaces
+ 3170  kubectl oidc-login
+ 3173  kubectl oidc-login
+ 3180  kubectl get namespaces
+ 3181  kubectl oidc-login
+ 3182  kubectl get namespaces
+ 3887  kubectl oidc-login
+ 4497  kubectl oidc-login
+ 4499  kubectl oidc-login
+ 4505  kubectl oidc-login
+ 4508  kubectl oidc-login
+ 4510  kubectl oidc-login
+ 4512  kubectl oidc-login
+ 4519  kubectl oidc-login
+ 4670  minikube version
+ 4688  minikube status
+ 4689  kenv minikube-create kylieplace
+ 4691  minikube status
+ 4695  cd .minikube
+ 4707  tree .kube
+ 4708  cd .kube
+ 4712  cd .minikube
+ 4755  minikube config
+ 4756  minikube profile
+ 4775  minikube delete kylieplace
+ 4776  minikube delete 
+ 4777  minikube profile kyliplace
+ 4778  minikube profile kylieplace
+ 4779  minikube delete 
+ 4780  kenv minikube-create kylieplace
+ 4781  minikube profile kylieplace
+ 4782  minikube delete 
+ 4783  kenv minikube-create kylieplace
+ 4785  minikube profile kylieplace
+ 4786  minikube delete 
+ 4787  kenv minikube-create kylieplace
+ 4790  kubectl version
+ 4791  kubectl cluster-info
+ 4792  kubectl get nodes
+ 4793  kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
+ 4794  kubectl get deployments
+ 4795  kubectl proxy
+ 4800  export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+ 4803  kubectl proxy
+ 4805  kubectl -v proxy
+ 4806  kubectl proxy --help
+ 4807  kubectl proxy --port=8081
+ 4811  kubectl proxy
+ 4813  kubectl get pods --all-namespaces -o wide|more
+ 4814  kubectl cluster-info
+ 4816  kubectl proxy
+ 4832  kubectl oidc-login
+ 4835  kubectl oidc-login
+ 4844  kubectl get pods --all-namespaces -o wide
+ 4845  kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}'
+ 4847  kubectl get pods -o go-template 
+ 4848  kubectl get pods --all-namespaces -o wide
+ 4850  kubectl logs kubernetes-bootcamp-6f6656d949-wjz8z
+ 4851  kubectl logs kubernetes-bootcamp-6f6656d949-wjz8zk describe pods
+ 4856  export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+ 4859  kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
+ 4860  kubectl proxy
+ 4862  kubectl describe pods
+ 4863  minikube restart
+ 4864  minikube stop
+ 4865  minikube profile kylieplace
+ 4866  minikube stop
+ 4867  minikube start
+ 4870  export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+ 4873  kubectl proxy
+ 4881  kubectl proxy
+ 4891  kubectl edit deployment/kubernetes-bootcamp
+ 4896  curl http://localhost:8001/api/v1/namespaces/default/pods/kubernetes-bootcamp-fcc5bfb48-l5wxq/proxy/
+ 4897  k logs -f kubernetes-bootcamp-fcc5bfb48-l5wxq
+ 4898  curl http://localhost:8001/api/v1/namespaces/default/pods/kubernetes-bootcamp-fcc5bfb48-l5wxq/proxy/
+ 4903  curl http://localhost:8001/api/v1/namespaces/default/pods/kubernetes-bootcamp-fcc5bfb48-l5wxq/proxy/
+ 4906  curl http://localhost:8001/api/v1/namespaces/default/pods/kubernetes-bootcamp-fcc5bfb48-l5wxq/proxy/
+ 4907  kubectl exec $POD_NAME env
+ 4908  kubectl exec kubernetes-bootcamp-fcc5bfb48-l5wxq env
+ 4909  kubectl exec -ti kubernetes-bootcamp-fcc5bfb48-l5wxq bash
+ 4911  kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
+ 4914  kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}'
+ 4916  minikube ip
+ 4919  kubectl describe services/kubernetes-bootcamp
+ 4922  kgp -l run=kubernetes-bootcamp
+ 4923  kgp -l app=kubernetes-bootcamp
+ 4924  export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+ 4925  kubectl label pod $POD_NAME app=v1
+ 4926  kgs -l run=kubernetes-bootcamp
+ 4927  kgs -l app=kubernetes-bootcamp
+ 4930  kgs delete -l app=kubernetes-bootcamp
+ 4931  kds delete -l app=kubernetes-bootcamp
+ 4932  kds -l app=kubernetes-bootcamp
+ 4933  kubectl delete service -l app=kubernetes-bootcamp
+ 4934  kubectl get services
+ 4938  kubectl get rs
+ 4939  kubectl scale deployments/kubernetes-bootcamp --replicas=4
+ 4940  kubectl get rs
+ 4945  kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
+ 4946  kubectl describe services/kubernetes-bootcamp
+ 4948  kubectl scale deployments/kubernetes-bootcamp --replicas=2
+ 4950  kubectl scale deployments/kubernetes-bootcamp --replicas=4
+ 4953  kubectl describe pods -o json
+ 4954  kubectl describe pods 
+ 4955  kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+ 4958  kubectl describe services/kubernetes-bootcamp
+ 4959  brew search kubeadm
+ 4960  minikube ssh
+ 4961  brew search kube
+ 4962  brew info kube-aws
+ 4963  brew indo kubeprod
+ 4964  brew info kubeprod
+ 4965  brew info kubespy
+ 4966  brew install kubespy
+ 4970  kubespy trace deployment kubernetes-bootcamp
+ 4971  kubectl scale deployments/kubernetes-bootcamp --replicas=2
+ 4972  kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=gcr.io/google-samples/kubernetes-bootcamp:v1
+ 4974  kubectl scale deployments/kubernetes-bootcamp --replicas=12
+ 4976  k logs -f kubernetes-bootcamp-fcc5bfb48-l5wxq
+ 4977  k logs -f kubernetes-bootcamp-fcc5bfb48-4d8mq
+ 4979  brew info kubebuilder
+ 4980  brew info kube-cluster
+ 4981  brew info kubecfg
+ 4982  brew install kubecfg
+ 4983  brew info kubectx
+ 4984  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
+ 4987  kgd -n kube-system
+ 4989  kubectl cluster-info
+ 4990  kgd -n kubernetes-dashboard
+ 4991  kubespy trace deployment kubernetes-dashboard
+ 4992  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 4993  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.3/aio/deploy/recommended.yaml
+ 4994  kubectl apply -f dashboard-adminuser.yaml
+ 4995  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 4996  kdd -n kubernetes-dashboard
+ 4997  kubespy trace deployment kubernetes-dashboard
+ 4998  kubespy -n kubernetes-dashobard trace deployment kubernetes-dashboard
+ 5026  backup-to-cloud .kube
+ 5491  minikube status
+ 5497  kenv create minikube olympicavenue
+ 5502  kubectl get pods 
+ 5503  more /Users/me802003/.kenv/machines/minikube-olympicavenue/config
+ 5506  cd minikube-olympicavenue
+ 5509  cp ~/.kube/config .
+ 5510  more /Users/me802003/.kenv/machines/minikube-olympicavenue/config
+ 5512  kubectl get pods 
+ 5515  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.3/aio/deploy/recommended.yaml
+ 5516  kubectl proxy
+ 5517  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5519  kubectl apply -f dashboard-adminuser.yaml
+ 5521  kubectl apply -f dashboard-adminuser.yaml
+ 5522  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5523  kubectl create ns flux
+ 5531  kubectl -n demo port-forward deployment/podinfo 9898:9898 &
+ 5537  kubectl -n demo port-forward deployment/podinfo 9898:9898 & curl localhost:9898
+ 5539  kubectl -n demo port-forward deployment/podinfo 9898:9898 && curl localhost:9898
+ 5541  kubectl -n demo port-forward deployment/podinfo 9898:9898 &\ncurl localhost:9898
+ 5542  kubectl -n demo port-forward deployment/podinfo 9898:9898 &\n
+ 5544  kubectl -n demo port-forward deployment/podinfo 9898:9898 &\n
+ 5548  kubectl -n demo port-forward deployment/podinfo 9898:9898 &\n
+ 5551  kubectl -n demo port-forward deployment/podinfo 9898:9898 &\n
+ 5553  kubectl -n demo port-forward deployment/podinfo 9898:9898 &\n
+ 5555  kubectl -n kubernetes-dashboard get secret 
+ 5557  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') | pbcopy\n
+ 5558  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') | pbcopy -\n
+ 5559  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5560  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') -o json
+ 5561  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --format json
+ 5562  kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json
+ 5563  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5564  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json
+ 5565  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq . -r
+ 5566  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r
+ 5567  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r | pbcopy -\n
+ 5568  open ~/.kenv/machines/minikube-olympicavenue
+ 5569  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r | pbcopy -\n
+ 5571  kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r | pbcopy -\n
+ 5572  minikube stop
+ 5574  minikube stop
+ 5575  minikube profile
+ 5577  minikube profile
+ 5583  minikube profile
+ 5586  minikube stop
+ 5587  minikube profile olympicavenue
+ 5588  minikube stop
+ 5589  minikube start
+ 5591* kubectl proxy
+ 5592* kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r | pbcopy -\n
+ 5593* kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')\n
+ 5594* kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5595* kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r | pbcopy -\n
+ 5596* kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq ".data.token" -r \n
+ 5597* kubectl -n kubernetes-dashboard get secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') --output json | jq "." -r \n
+ 5603* kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5621  minikube stop
+ 5622  minikube start
+ 5623* kubectl proxy
+ 5625* kubectl proxy
+ 5626  minikube stop
+ 5628  minikube start
+ 5629* kubectl proxy
+ 5631* kubectl proxy
+ 5632* kubectl -n demo port-forward deployment/amberleyway 8083:8083 &
+ 5633* kubectl -n amberleyway port-forward deployment/amberleyway 8083:8083 &
+ 5640* kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
+ 5641* kubectl proxy
+ 5645* kubectl -n amberleyway port-forward deployment/amberleyway 8093:8093 &
+ 5678* kubectl proxy
+ 5721* kubectl proxy
+ 5722* kubectl -n amberleyway port-forward deployment/amberleyway 8093:8093 &
+ 5723* kubectl -n amberleyway port-forward deployment/amberleyway 8092:8092 &
+ 5738* kubectl oidc-login
+ 5792  (history | grep kube ) > flux-history.txt 
+ 5793  (history | grep kube ) > kube-history.txt 
+ 5794  (history | grep flux ) > kube-history.txt 
