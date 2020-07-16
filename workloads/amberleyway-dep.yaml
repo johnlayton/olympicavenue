@@ -9,8 +9,7 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.init: regex:^3.10.*
-    fluxcd.io/tag.podinfod: glob:0.0.13
-    fluxcd.io/tag.amberleyway: glob:0.0.12
+    fluxcd.io/tag.amberleyway: glob:0.0.13
 spec:
   strategy:
     rollingUpdate:
@@ -32,7 +31,7 @@ spec:
         - "1"
       containers:
       - name: amberleyway
-        image: johnlayton/amberleyway:0.0.12
+        image: johnlayton/amberleyway:0.0.13
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
