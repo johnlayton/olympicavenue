@@ -1,0 +1,78 @@
+ 5490  asdf plugin add fluxctl
+ 5498  asdf list all fluxctl
+ 5499  asdf install fluxctl 1.20.0
+ 5500  asdf global fluxctl 1.20.0
+ 5514  fluxctl identity --k8s-fwd-ns flux
+ 5523  kubectl create ns flux
+ 5525  cat >> install-flux.sh
+ 5527  vi install-flux.sh
+ 5528  chmod 755 install-flux.sh
+ 5529  ./install-flux.sh
+ 5530  fluxctl identity --k8s-fwd-ns flux
+ 5534  fluxctl sync --k8s-fwd-ns flux
+ 5535  fluxctl identity --k8s-fwd-ns flux
+ 5536  fluxctl sync --k8s-fwd-ns flux
+ 5546  fluxctl sync --k8s-fwd-ns flux
+ 5616  fluxctl sync --k8s-fwd-ns flux
+ 5618  fluxctl sync --k8s-fwd-ns flux
+ 5619  fluxctl sync --help
+ 5620  fluxctl sync --k8s-fwd-ns flux
+ 5624  fluxctl sync --k8s-fwd-ns flux
+ 5634  fluxctl sync --k8s-fwd-ns flux
+ 5638  fluxctl sync --k8s-fwd-ns flux
+ 5643  fluxctl sync --k8s-fwd-ns flux
+ 5646  fluxctl sync --k8s-fwd-ns flux
+ 5648  fluxctl sync --k8s-fwd-ns flux
+ 5649  fluxctl identity
+ 5650  fluxctl identity --namespace flux
+ 5651  fluxctl --namespace flux identity
+ 5652  fluxctl --k8s-fwd-ns flux identity
+ 5653  fluxctl --version
+ 5654  fluxctl -version
+ 5655  fluxctl version
+ 5679  fluxctl help
+ 5680  fluxctl -help
+ 5681  fluxctl --help
+ 5682  fluxctl --k8s-fwd-ns flux version
+ 5683  fluxctl --k8s-fwd-ns flux list-workloads
+ 5684  fluxctl --k8s-fwd-ns flux list-workloads --ns demo
+ 5685  fluxctl --k8s-fwd-ns flux list-images
+ 5686  fluxctl --k8s-fwd-ns demo list-images
+ 5687  fluxctl list-workloads
+ 5688  fluxctl list-workloads --help
+ 5689  fluxctl --k8s-fwd-ns demo list-images -n demo
+ 5690  fluxctl --k8s-fwd-ns flux list-images -n demo
+ 5691  fluxctl --k8s-fwd-ns flux list-images -n amberleyway
+ 5692  fluxctl --k8s-fwd-ns flux list-workloads --n amberleyway
+ 5693  fluxctl --k8s-fwd-ns flux list-workloads -n amberleyway
+ 5694  fluxctl --k8s-fwd-ns flux sync
+ 5695  fluxctl --k8s-fwd-ns flux list-workloads -n amberleyway
+ 5696  fluxctl --k8s-fwd-ns flux sync
+ 5697  fluxctl --k8s-fwd-ns flux list-workloads -n amberleyway
+ 5704  fluxctl --k8s-fwd-ns flux sync
+ 5708  fluxctl --k8s-fwd-ns flux sync
+ 5715  fluxctl --k8s-fwd-ns flux sync
+ 5720* fluxctl --k8s-fwd-ns flux sync
+ 5724  export FLUX_FORWARD_NAMESPACE=flux
+ 5725  fluxctl list-workloads
+ 5726  fluxctl list-workloads --all-namespaces
+ 5727  fluxctl identity
+ 5728  fluxctl list-images amberleyway:deployment/amberleyway
+ 5729  fluxctl list-images --workload amberleyway:deployment/amberleyway
+ 5730  fluxctl release --workload amberleyway:deployment/amberleyway --user=john --message="bump version of amberleyway" --update-all-images
+ 5731  fluxctl release --workload=amberleyway:deployment/amberleyway --user=john --message="bump version of amberleyway" --update-all-images
+ 5732  fluxctl release --help
+ 5733  fluxctl release --workload=amberleyway:deployment/amberleyway --user=john --message="bump version of amberleyway" --update-all-images
+ 5734  fluxctl release --workload=amberleyway:deployment/amberleyway --user=john --message="bump version of amberleyway" --update-image=johnlayton/amberleyway:0.0.13
+ 5739  fluxctl --k8s-fwd-ns flux sync
+ 5742* export FLUX_FORWARD_NAMESPACE=flux
+ 5743* fluxctl list-images --workload amberleyway:deployment/amberleyway
+ 5744* fluxctl policy -w amberleyway:deployment/amberleyway --tags="podinfod=0.0.13"
+ 5745* fluxctl policy -w amberleyway:deployment/amberleyway --tag="podinfod=0.0.13"
+ 5746* fluxctl list-images --workload amberleyway:deployment/amberleyway
+ 5747* fluxctl release --workload=amberleyway:deployment/amberleyway --user=john --message="bump version of amberleyway" --update-image=johnlayton/amberleyway:0.0.13
+ 5748* fluxctl list-images --workload amberleyway:deployment/amberleyway
+ 5749* fluxctl policy -w amberleyway:deployment/amberleyway --tag="amberleyway=0.0.12"
+ 5750* fluxctl release --workload=amberleyway:deployment/amberleyway --user=john --message="bump version of amberleyway" --update-image=johnlayton/amberleyway:0.0.12
+ 5751* fluxctl list-images --workload amberleyway:deployment/amberleyway
+
