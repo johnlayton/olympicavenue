@@ -298,6 +298,3 @@
  5722* kubectl -n amberleyway port-forward deployment/amberleyway 8093:8093 &
  5723* kubectl -n amberleyway port-forward deployment/amberleyway 8092:8092 &
  5738* kubectl oidc-login
- 5792  (history | grep kube ) > flux-history.txt 
- 5793  (history | grep kube ) > kube-history.txt 
- 5794  (history | grep flux ) > kube-history.txt 
