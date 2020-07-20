@@ -57,3 +57,5 @@ fluxctl install \
 --namespace=flux | kubectl apply -f -
 
 kubectl -n flux rollout status deployment/flux
+
+./install_kpack.sh
