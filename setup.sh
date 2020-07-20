@@ -6,7 +6,7 @@ echo "======================"
 echo "Create Kubernetes"
 echo "======================"
 
-kenv create minikube olympicavenue
+#kenv create minikube olympicavenue
 
 echo "======================"
 echo "Install Dashboard"
